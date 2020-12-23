@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-weight: normal;
+}
+
+body {
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+div {
+  max-height: max-content;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 8rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  /* font-weight: normal; */
+  color: #66bfbf;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 3rem;
+  color: #11999e;
+  font-size: x-large;
+}
+
+p {
+  font-size: small;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 10rem;
+}
+
+.middle-container {
+  width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.cloud {
+  height: 13rem;
+  width: 13rem;
+}
+
+.top {
+  position: absolute;
+  top: 0rem;
+  left: 45rem;
+}
+
+.bottom {
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  padding-top: 3rem;
+  top: 29rem;
+  right: 55.8rem;
+}
+
+.mountain {
+  padding-top: 3rem;
+  height: 50rem;
+  width: 50rem;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.profilepic {
+  width: 15rem;
+  height: 15rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.footer-link > img {
+  margin: 3rem 1rem 1rem 1rem;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+button {
+  padding: 0.7rem;
+  background-color: #eaf6f6;
+  border-radius: 0.4rem;
+  border-color: #66bfbf;
+}
+
+button > a {
+  color: #66bfbf;
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-bottom: 5rem;
+}
+
+hr {
+  border: none;
+  margin: 2rem auto;
+  width: 5rem;
+  border-top: 0.5rem dotted grey;
+}
+
+.video,
+.coding,
+.editing {
+  height: 15rem;
+  width: 15rem;
+}
+
+.middle-container > h2 {
+  margin-bottom: 1rem;
+}
+
+/*
+.skill-row {
+  
+  display: flex;
+  flex-direction: column;
+  
+}
+*/
+
+.coding {
+  margin-top: 2rem;
+  flex: right;
+}
+
+.video {
+}
+
+.editing {
+}
+
+.bottom-container {
+  margin-top: 3rem;
+  background-color: #66bfbf;
+  padding-top: -1.5rem;
+  padding-bottom: 0.1rem;
+}
+
+.bottom-container > p {
+  color: #eaf6f6;
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+}
